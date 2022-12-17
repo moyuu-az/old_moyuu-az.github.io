@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Index = () => {
     return (
         <>
-            <div>Welcome to Next.js!</div>
+            <div>Welcome to moyuu page!</div>
             <Link href="/linkSample">
                 <a>link Sample Page</a>
             </Link>
