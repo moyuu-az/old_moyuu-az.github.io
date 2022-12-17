@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default () => (
     <div>
         <h2>Hello linkSample Page</h2>

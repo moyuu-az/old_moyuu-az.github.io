@@ -1,14 +1,20 @@
-import Link from 'next/link'
+import Head from 'next/head'
+import Layout, { siteTitle } from '../components/layout'
+import utilStyles from '../styles/utils.module.css'
 
-const Index = () => {
+export default function Home() {
     return (
-        <>
-            <div>Welcome to moyuu page!</div>
-            <Link href="/linkSample">
-                <a>link Sample Page</a>
-            </Link>
-        </>
+        <Layout home>
+            <Head>
+                <title>{siteTitle}</title>
+            </Head>
+            <section className={utilStyles.headingMd}>
+                <p>もゆぅのサイトです</p>
+                <p>
+                    (とりあえずのサイトです{' '}
+                    <a href="/posts/first-post">適当なポスト</a>.)
+                </p>
+            </section>
+        </Layout>
     )
 }
-
-export default Index
