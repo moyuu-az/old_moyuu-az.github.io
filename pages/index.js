@@ -34,6 +34,7 @@ export default function Home() {
             </Head>
             <section className={utilStyles.headingMd}>
                 <p>もゆぅのサイトです</p>
+                <p></p>
                 <p>
                     (とりあえずのサイトです{' '}
                     <a href="/posts/first-post">適当なポスト</a>.)

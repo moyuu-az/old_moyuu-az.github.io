@@ -4,7 +4,7 @@ import Layout from "../../components/layout"
 export default function FirstPost() {
     return (
         <Layout firstpost>
-            <h1>First Post</h1>
+            <h1>Amazarashiが好きな話でも書こうかな</h1>
         </Layout>
     )
 }
